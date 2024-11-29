@@ -4,7 +4,7 @@ public class Rating {
     private String  epost;
     private int rate;
 
-    public Rating(String alias, String epost, int rate) {
+    public Rating(String alias, String epost, int rate, Book bok) {
         this.alias = alias;
         this.epost = epost;
         this.rate = rate;
