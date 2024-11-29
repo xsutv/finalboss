@@ -19,9 +19,15 @@ public class Main {
         Rating duneRate = new Rating("hai", "hai@gmail.com", 5, dune);
         dune.addRating(duneRate);
 
+        Rating duneRate3 = new Rating("hai", "billy@gmail.com", 5, dune);
+        dune.addRating(duneRate3);
+
         Rating duneRate2 = new Rating("hai", "hai@gmail.com", 5, dune);
         dune.addRating(duneRate2);
 
+        
 
+        System.out.println("Dessa böcker finns med i listan: " + dune.getRateList());
+        // // System.out.println();
     }
 }

@@ -3,11 +3,17 @@ public class Rating {
     private String alias;
     private String  epost;
     private int rate;
+    private Book book;
+    
+        public Rating(String alias, String epost, int rate, Book book) {
+            this.alias = alias;
+            this.epost = epost;
+            this.rate = rate;
+            this.book = book;
+    }
 
-    public Rating(String alias, String epost, int rate, Book bok) {
-        this.alias = alias;
-        this.epost = epost;
-        this.rate = rate;
+    public Book getBook() {
+        return book;
     }
 
     public String getAlias() {
